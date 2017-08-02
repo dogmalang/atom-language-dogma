@@ -1,0 +1,5 @@
+'.source.dogma':
+  'editor':
+    'commentStart': '# '
+    'increaseIndentPattern': '(async|const|do|else|then|use|var|fn\\(.*\\)|fn +.+\\(.*\\) *:?.+)$'
+    'decreaseIndentPattern': '^\\s*end\\)$'

@@ -1,0 +1,43 @@
+'name': 'Dogma'
+'scopeName': 'source.dogma'
+'comment': 'Dogma language'
+'fileTypes': [
+  'dog'
+  'dogma'
+]
+'patterns': [
+  {
+    'begin': '#'
+    'end': '$'
+    'name': 'comment.dogma'
+  }
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string.quoted.double.dogma'
+  }
+  {
+    'match': '\\b(\\d[\\d\\. ]*)\\b'
+    'name': 'constant.numeric.dogma'
+  }
+  {
+    'match': 'false|true|nil'
+    'name': 'constant.language.dogma'
+  }
+  {
+    'match': '\\b(and|as|async|await|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|in|is|like|next|nop|not|or|peval|pub|pvt|return|super|then|type|use|var|while|yield)\\b'
+    'name': 'keyword.language.dogma'
+  }
+  {
+    'match': '\\+|\\+=|-|-=|\\*|\\*=|\\*\\*|\\*\\*=|\\/|\\/=|%|%=|=|==|===|=>|!|!=|!==|<|<<|<<=|<=|>|>>|>>=|>=|\\^|\\^=|~|~=|\\(|\\)|\\[|\\]|{|}|:|\\.|\\.\\.|\\.\\.\\.|\\?|&|&=|&&|\\||\\|=|\\|\\|\\,'
+    'name': 'keyword.operator.dogma'
+  }
+  {
+    'match': '((\\$|\\$\\$)[a-zA-Z_\\d]*|self|Self)'
+    'name': 'variable.language.dogma'
+  }
+  {
+    'match': '\\b(abstract|any|bool|func|len|list|num|map|print|printf|seq|text|throw|todo)\\b'
+    'name': 'support.function.dogma'
+  }
+]
