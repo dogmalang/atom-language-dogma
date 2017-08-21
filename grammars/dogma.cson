@@ -33,7 +33,7 @@
     'name': 'keyword.operator.dogma'
   }
   {
-    'match': '((\\$|\\$\\$)[a-zA-Z_\\d]*|self|Self)'
+    'match': '(( +[$:][a-zA-Z_\\d]+)|self|Self)'
     'name': 'variable.language.dogma'
   }
   {
