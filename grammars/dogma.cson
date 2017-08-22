@@ -30,7 +30,7 @@
     'name': 'constant.language.dogma'
   }
   {
-    'match': '\\b(and|as|async|await|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|in|is|like|next|nop|not|or|peval|pub|pvt|return|super|then|type|use|var|while|yield)\\b'
+    'match': '\\b(and|as|async|await|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|in|is|like|next|nop|not|op|or|peval|pub|pvt|return|super|then|type|use|var|while|yield)\\b'
     'name': 'keyword.language.dogma'
   }
   {
