@@ -12,6 +12,11 @@
     'name': 'comment.dogma'
   }
   {
+    'begin': '@'
+    'end': '$'
+    'name': 'support.function.dogma'
+  }
+  {
     'begin': '"'
     'end': '"'
     'name': 'string.quoted.double.dogma'
@@ -29,12 +34,12 @@
     'name': 'keyword.language.dogma'
   }
   {
-    'match': '\\+|\\+=|-|-=|\\*|\\*=|\\*\\*|\\*\\*=|\\/|\\/=|%|%=|=|==|===|=>|!|!=|!==|<|<<|<<=|<=|>|>>|>>=|>=|\\^|\\^=|~|~=|\\(|\\)|\\[|\\]|{|}|:|\\.|\\.\\.|\\.\\.\\.|\\?|&|&=|&&|\\||\\|=|\\|\\|\\,'
-    'name': 'keyword.operator.dogma'
+    'match': '(([\\$\\:][a-zA-Z_\\d]+)|self|Self)'
+    'name': 'variable.language.dogma'
   }
   {
-    'match': '(( +[$:][a-zA-Z_\\d]+)|self|Self)'
-    'name': 'variable.language.dogma'
+    'match': '\\+|\\+=|-|-=|\\*|\\*=|\\*\\*|\\*\\*=|\\/|\\/=|%|%=|=|==|===|=>|!|!=|!==|<|<<|<<=|<=|>|>>|>>=|>=|\\^|\\^=|~|~=|\\(|\\)|\\[|\\]|{|}|\\.|\\.\\.|\\.\\.\\.|\\?|&|&=|&&|\\||\\|=|\\|\\|\\,'
+    'name': 'keyword.operator.dogma'
   }
   {
     'match': '\\b(abstract|any|bool|func|len|list|num|map|print|printf|seq|text|throw|todo|typename)\\b'
