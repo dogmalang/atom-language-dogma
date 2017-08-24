@@ -12,11 +12,6 @@
     'name': 'comment.dogma'
   }
   {
-    'begin': '@'
-    'end': '$'
-    'name': 'support.function.dogma'
-  }
-  {
     'begin': '"'
     'end': '"'
     'name': 'string.quoted.double.dogma'
@@ -30,7 +25,7 @@
     'name': 'constant.language.dogma'
   }
   {
-    'match': '\\b(and|as|async|await|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|in|is|like|next|nop|not|op|or|peval|pub|pvt|return|super|then|type|use|var|while|yield)\\b'
+    'match': '\\b(and|as|async|await|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|in|is|like|native|next|nop|not|op|or|peval|pub|pvt|return|super|then|type|use|var|while|yield)\\b'
     'name': 'keyword.language.dogma'
   }
   {
@@ -43,6 +38,10 @@
   }
   {
     'match': '\\b(abstract|any|bool|func|len|list|num|map|print|printf|seq|text|throw|todo|typename)\\b'
+    'name': 'support.function.dogma'
+  }
+  {
+    'match': '(\\@[a-zA-Z0-9_]+)'
     'name': 'support.function.dogma'
   }
 ]
