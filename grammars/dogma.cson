@@ -17,6 +17,11 @@
     'name': 'string.quoted.double.dogma'
   }
   {
+    'begin': '\''
+    'end': '\''
+    'name': 'entity.name.dogma'
+  }
+  {
     'match': '\\b(\\d[\\d\\. ]*)\\b'
     'name': 'constant.numeric.dogma'
   }
