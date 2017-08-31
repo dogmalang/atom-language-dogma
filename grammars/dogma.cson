@@ -42,7 +42,7 @@
     'name': 'keyword.operator.dogma'
   }
   {
-    'match': '\\b(abstract|any|bool|func|len|list|num|map|print|printf|seq|text|throw|todo|typename)\\b'
+    'match': '\\b(abstract|any|bool|func|len|list|num|map|print|printf|promise|proxy|seq|text|throw|todo|typename)\\b'
     'name': 'support.function.dogma'
   }
   {
