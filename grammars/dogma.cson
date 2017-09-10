@@ -17,6 +17,11 @@
     'name': 'string.quoted.double.dogma'
   }
   {
+    'begin': '"""'
+    'end': '"""'
+    'name': 'string.quoted.triple.dogma'
+  }
+  {
     'begin': '\''
     'end': '\''
     'name': 'entity.name.dogma'
@@ -26,27 +31,35 @@
     'name': 'constant.numeric.dogma'
   }
   {
-    'match': 'false|true|nil'
+    'match': '\\b(false|true|nil)\\b'
     'name': 'constant.language.dogma'
   }
   {
     'match': '\\b(and|as|async|await|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|in|is|like|native|next|nop|not|op|or|peval|pub|pvt|return|super|then|type|use|var|while|yield)\\b'
-    'name': 'keyword.language.dogma'
+    'name': 'keyword.dogma'
   }
   {
-    'match': '(([\\$\\:][a-zA-Z_\\d]+)|self|Self)'
+    'match': '\\b(abstract|len|print|printf|throw|todo|typename)\\b'
+    'name': 'support.function.dogma'
+  }
+  {
+    'match': '\\.\\.\\.[a-zA-Z0-9_]+'
+    'name': 'variable.parameter.dogma'
+  }
+  {
+    'match': '((([\\$\\:\\.])(?!(any|bool|func|list|num|map|promise|proxy|text))[a-zA-Z0-9_]+)|self|Self)'
     'name': 'variable.language.dogma'
   }
   {
-    'match': '\\+|\\+=|-|-=|\\*|\\*=|\\*\\*|\\*\\*=|\\/|\\/=|%|%=|=|==|===|=>|!|!=|!==|<|<<|<<=|<=|>|>>|>>=|>=|\\^|\\^=|~|~=|\\(|\\)|\\[|\\]|{|}|\\.|\\.\\.|\\.\\.\\.|\\?|&|&=|&&|\\||\\|=|\\|\\|\\,'
-    'name': 'keyword.operator.dogma'
-  }
-  {
-    'match': '\\b(abstract|any|bool|func|len|list|num|map|print|printf|promise|proxy|seq|text|throw|todo|typename)\\b'
-    'name': 'support.function.dogma'
+    'match': '\\b(any|bool|func|list|num|map|promise|proxy|text)\\b'
+    'name': 'support.type.dogma'
   }
   {
     'match': '(\\@[a-zA-Z0-9_]+)'
-    'name': 'support.function.dogma'
+    'name': 'entity.name.section.dogma'
+  }
+  {
+    'match': '\\+|\\+=|-|-=|\\*|\\*=|\\*\\*|\\*\\*=|\\/|\\/=|%|%=|=|==|===|=>|!|!=|!==|<|<<|<<=|<=|>|>>|>>=|>=|\\^|\\^=|~|~=|\\(|\\)|\\[|\\]|{|}|\\.\\.|\\.\\.\\.|\\?|&|&=|&&|\\||\\|=|\\|\\|\\,'
+    'name': 'keyword.operator.dogma'
   }
 ]
