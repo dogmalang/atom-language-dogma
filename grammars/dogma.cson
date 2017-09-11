@@ -39,7 +39,7 @@
     'name': 'keyword.dogma'
   }
   {
-    'match': '\\b(abstract|len|print|printf|throw|todo|typename)\\b'
+    'match': '\\b(abstract|exec|len|print|printf|throw|todo|typename)\\b'
     'name': 'support.function.dogma'
   }
   {
