@@ -47,7 +47,7 @@
     'name': 'variable.parameter.dogma'
   }
   {
-    'match': '((([\\$\\:\\.])(?!(any|bool|func|list|num|map|promise|proxy|text))[a-zA-Z0-9_]+)|self|Self)'
+    'match': '((\\:(?!(any|bool|func|list|num|map|promise|proxy|text))[a-zA-Z0-9_]+)|([\\$\\.][a-zA-Z0-9_]+)|self|Self)'
     'name': 'variable.language.dogma'
   }
   {
