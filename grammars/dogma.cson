@@ -39,7 +39,7 @@
     'name': 'keyword.dogma'
   }
   {
-    'match': '\\b(abstract|exec|len|print|printf|throw|todo|typename)\\b'
+    'match': '\\b(abstract|coalesce|exec|fmt|keys|len|print|printf|throw|todo|typename)\\b'
     'name': 'support.function.dogma'
   }
   {
@@ -47,11 +47,11 @@
     'name': 'variable.parameter.dogma'
   }
   {
-    'match': '((\\:(?!(any|bool|func|list|num|map|promise|proxy|text))[a-zA-Z0-9_]+)|([\\$\\.][a-zA-Z0-9_]+)|self|Self)'
+    'match': '((\\:(?!(any|bool|datetime|func|list|num|map|promise|proxy|text))[a-zA-Z0-9_]+)|(\\.[a-zA-Z0-9_]+)|self|Self)'
     'name': 'variable.language.dogma'
   }
   {
-    'match': '\\b(any|bool|func|list|num|map|promise|proxy|text)\\b'
+    'match': '\\b(any|bool|datetime|func|list|num|map|promise|proxy|text)\\b'
     'name': 'support.type.dogma'
   }
   {
