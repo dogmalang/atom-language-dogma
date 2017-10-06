@@ -39,7 +39,7 @@
     'name': 'keyword.dogma'
   }
   {
-    'match': '\\b(abstract|coalesce|echo|echof|exec|expect|fmt|keys|len|print|printf|throw|todo|typename)\\b'
+    'match': '\\b(abstract|coalesce|echo|echof|exec|execf|expect|fmt|keys|len|print|printf|throw|todo|typename)\\b'
     'name': 'support.function.dogma'
   }
   {
