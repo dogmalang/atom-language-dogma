@@ -12,14 +12,14 @@
     'name': 'comment.dogma'
   }
   {
-    'begin': '"'
-    'end': '"'
-    'name': 'string.quoted.double.dogma'
-  }
-  {
     'begin': '"""'
     'end': '"""'
     'name': 'string.quoted.triple.dogma'
+  }
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string.quoted.double.dogma'
   }
   {
     'begin': '\''
