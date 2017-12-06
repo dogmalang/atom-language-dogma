@@ -20,6 +20,12 @@
     'begin': '"'
     'end': '"'
     'name': 'string.quoted.double.dogma'
+    'patterns': [
+      {
+        'match': '\\\\.'
+        'name': 'constant.character.escape.dogma'
+      }
+    ]
   }
   {
     'begin': '\''
