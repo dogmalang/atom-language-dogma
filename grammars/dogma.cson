@@ -41,7 +41,7 @@
     'name': 'constant.language.dogma'
   }
   {
-    'match': '\\b(and|as|async|await|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|iif|impl|in|is|like|native|next|nop|not|op|or|pawait|peval|pub|pvt|return|super|then|type|use|var|while|with|yield)\\b'
+    'match': '\\b(and|as|async|await|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|iif|impl|in|is|like|native|next|nop|not|op|or|pawait|peval|pub|pvt|return|then|type|use|var|while|with|yield)\\b'
     'name': 'keyword.dogma'
   }
   {
@@ -53,8 +53,12 @@
     'name': 'variable.parameter.dogma'
   }
   {
-    'match': '((\\:(?!(any|bool|datetime|func|list|num|map|promise|proxy|text))[a-zA-Z0-9_]+)|([\\.\\?][a-zA-Z0-9_]+)|self|Self)'
+    'match': '((\\:(?!(any|bool|datetime|func|list|num|map|promise|proxy|text))[a-zA-Z0-9_]+)|([\\.\\?][a-zA-Z0-9_]+))'
     'name': 'variable.language.dogma'
+  }
+  {
+    'match': '(?<![^.]\\.|:)\\b(self|super)\\b'
+    'name': 'variable.language.self.dogma'
   }
   {
     'match': '\\b(any|bool|datetime|func|list|num|map|promise|proxy|text)\\b'
