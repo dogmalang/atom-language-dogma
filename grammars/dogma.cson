@@ -45,7 +45,7 @@
     'name': 'keyword.dogma'
   }
   {
-    'match': '\\b(abstract|coalesce|echo|echof|exec|execf|expect|fmt|json|keys|len|os|print|printf|ps|remove|throw|todo|typename|values)\\b'
+    'match': '\\b(abstract|coalesce|echo|echof|exec|execf|expect|fmt|json|keys|len|os|print|printf|ps|range|remove|throw|todo|typename|values)\\b'
     'name': 'support.function.dogma'
   }
   {
