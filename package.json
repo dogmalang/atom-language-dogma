@@ -1,6 +1,6 @@
 {
   "name": "language-dogma",
-  "version": "0.9.15",
+  "version": "0.9.16",
   "description": "Dogma language support in Atom.",
   "author": {
     "name": "Justo Labs",
