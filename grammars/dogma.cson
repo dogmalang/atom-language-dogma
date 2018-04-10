@@ -7,6 +7,11 @@
 ]
 'patterns': [
   {
+    'begin': '#\\['
+    'end': '\\]'
+    'name': 'comment.dogma'
+  }
+  {
     'begin': '#'
     'end': '$'
     'name': 'comment.dogma'
