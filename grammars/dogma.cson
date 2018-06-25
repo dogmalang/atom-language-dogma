@@ -68,11 +68,11 @@
     'name': 'variable.parameter.dogma'
   }
   {
-    'match': '((\\:(?!(any|bool|datetime|func|list|num|map|promise|proxy|set|text))[a-zA-Z0-9_]+)|([\\.\\?][a-zA-Z0-9_]+))'
+    'match': '(([:!](?!(any|bool|datetime|func|list|num|map|promise|proxy|set|text))[a-zA-Z0-9_]+)|([\\.\\?][a-zA-Z0-9_]+))'
     'name': 'variable.language.dogma'
   }
   {
-    'match': '(?<![^.]\\.|:)\\b(self|super)\\b'
+    'match': '(?<![^.][.:!])\\b(self|super)\\b'
     'name': 'variable.language.self.dogma'
   }
   {
@@ -84,7 +84,7 @@
     'name': 'entity.name.section.dogma'
   }
   {
-    'match': '\\+|\\+=|-|-=|\\*|\\*=|\\*\\*|\\*\\*=|\\/|\\/=|%|%=|=|==|===|=>|!|!=|!==|<|<<|<<=|<=|>|>>|>>=|>=|\\^|\\^=|~|~=|\\(|\\)|\\[|\\]|{|}|\\.\\.|\\.\\.\\.|\\?|&|&=|&&|\\||\\|=|\\|\\|\\,'
+    'match': '\\+|\\+=|-|-=|\\*|\\*=|\\*\\*|\\*\\*=|\\/|\\/=|%|%=|=|==|===|=>|!=|!==|<|<<|<<=|<=|>|>>|>>=|>=|\\^|\\^=|~|~=|\\(|\\)|\\[|\\]|{|}|\\.\\.|\\.\\.\\.|\\?|&|&=|&&|\\||\\|=|\\|\\|\\,'
     'name': 'keyword.operator.dogma'
   }
 ]
