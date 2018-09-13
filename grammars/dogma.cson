@@ -76,6 +76,10 @@
     'name': 'variable.language.self.dogma'
   }
   {
+    'match': '(\\$[a-zA-Z0-9_]+)'
+    'name': 'variable.language.env'
+  }
+  {
     'match': '\\b(any|bool|datetime|func|list|num|map|promise|proxy|set|text)\\b'
     'name': 'support.type.dogma'
   }
