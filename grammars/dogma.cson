@@ -56,11 +56,11 @@
     'name': 'constant.language.dogma'
   }
   {
-    'match': '\\b(and|as|async|await|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|iif|impl|in|is|like|native|next|nop|not|op|or|pawait|peval|proc|pub|pvt|pwait|return|then|type|use|var|while|with|yield)\\b'
+    'match': '\\b(and|as|async|break|catch|const|do|dogma|each|else|end|enum|export|extern|finally|fn|for|from|if|impl|in|is|like|native|next|nop|not|op|or|proc|pub|pvt|return|then|type|use|var|while|with|yield)\\b'
     'name': 'keyword.dogma'
   }
   {
-    'match': '\\b(abstract|bind|coalesce|date|echo|echof|emit|exec|execf|expect|fmt|json|keys|len|os|print|printf|ps|range|remove|sleep|throw|todo|typename|values|year)\\b'
+    'match': '\\b(abstract|await|bind|coalesce|date|echo|echof|emit|exec|execf|expect|fmt|json|keys|len|os|pawait|peval|print|printf|ps|pwait|range|remove|sleep|throw|todo|typename|values|year)\\b'
     'name': 'support.function.dogma'
   }
   {
