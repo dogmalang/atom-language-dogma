@@ -60,7 +60,7 @@
     'name': 'keyword.dogma'
   }
   {
-    'match': '\\b(abstract|await|bind|coalesce|date|echo|echof|emit|exec|execf|expect|fmt|json|keys|len|os|pawait|peval|print|printf|ps|pwait|range|remove|sleep|throw|todo|typename|values|year)\\b'
+    'match': '\\b(abstract|await|bind|coalesce|date|echo|echof|emit|expect|fmt|json|keys|len|pawait|peval|print|printf|ps|pwait|range|remove|sleep|throw|todo|typename|values|year)\\b'
     'name': 'support.function.dogma'
   }
   {
