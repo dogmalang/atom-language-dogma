@@ -61,7 +61,7 @@
     'name': 'keyword.dogma'
   }
   {
-    'match': '\\b(abstract|await|bind|coalesce|date|echo|echof|emit|expect|fmt|json|keys|len|pawait|peval|print|printf|ps|pwait|range|remove|sleep|throw|todo|typename|values|year)\\b'
+    'match': '\\b(abstract|await|bind|coalesce|cwait|date|echo|echof|emit|expect|fmt|json|keys|len|pawait|pcwait|peval|print|printf|ps|pwait|range|remove|sleep|throw|todo|typename|values|year)\\b'
     'name': 'support.function.dogma'
   }
   {
@@ -89,7 +89,7 @@
     'name': 'entity.name.section.dogma'
   }
   {
-    'match': '\\+|\\+=|-|-=|\\*|\\*=|\\*\\*|\\*\\*=|\\/|\\/=|%|%=|=|==|===|=>|!=|!==|<|<<|<<=|<=|>|>>|>>=|>=|\\^|\\^=|~|~=|\\(|\\)|\\[|\\]|{|}|\\.\\.|\\.\\.\\.|\\?|&|&=|&&|\\||\\|=|\\|\\|\\,'
+    'match': '\\+|\\+=|-|-=|\\*|\\*=|\\*\\*|\\*\\*=|\\/|\\/=|%|%=|=|==|===|=>|=~|!~|:~|!=|!==|<|<<|<<=|<=|>|>>|>>=|>=|\\^|\\^=|~|~=|\\(|\\)|\\[|\\]|{|}|\\.\\.|\\.\\.\\.|\\?|&|&=|&&|\\||\\|=|\\|\\|\\,'
     'name': 'keyword.operator.dogma'
   }
 ]
