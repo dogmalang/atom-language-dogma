@@ -1,5 +1,5 @@
 '.source.dogma':
   'editor':
     'commentStart': '# '
-    'increaseIndentPattern': '({|\\[|\\(|async|const|do|else|pub|then|use|var|with .+|(fn|proc)\\(.*\\)| *(fn|proc) +.+\\(.*\\) *:?.+|((export|pub)? *type .+))$'
+    'increaseIndentPattern': '({|\\[|\\(|async|const|do|else|pub|then|use|var|with .+|(fn|pr|proc)\\(.*\\)| *(fn|pr|proc) +.+\\(.*\\) *:?.+|((export|pub)? *type .+))$'
     'decreaseIndentPattern': '^\\s*((end|}|\\])\\)|(}|\\]|\\)))$'
