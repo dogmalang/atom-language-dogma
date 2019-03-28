@@ -28,12 +28,12 @@
     'name': 'comment.dogma'
   }
   {
-    'begin': '"""'
+    'begin': '\\$?"""'
     'end': '"""'
     'name': 'string.quoted.triple.dogma'
   }
   {
-    'begin': '"'
+    'begin': '\\$?"'
     'end': '"'
     'name': 'string.quoted.double.dogma'
     'patterns': [
