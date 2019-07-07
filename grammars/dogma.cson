@@ -18,14 +18,19 @@
     'name': 'constant.dogma'
   }
   {
+    'begin': '^###'
+    'end': '$'
+    'name': 'comment.block.documentation.dogma'
+  }
+  {
     'begin': '#\\['
     'end': '\\]'
-    'name': 'comment.dogma'
+    'name': 'comment.line.dogma'
   }
   {
     'begin': '#'
     'end': '$'
-    'name': 'comment.dogma'
+    'name': 'comment.line.dogma'
   }
   {
     'begin': '\\$?"""'
