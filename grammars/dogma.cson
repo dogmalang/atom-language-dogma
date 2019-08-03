@@ -18,8 +18,12 @@
     'name': 'constant.dogma'
   }
   {
-    'begin': '^ *###'
-    'end': '$'
+    'begin': '/\\*'
+    'end': '\\*/'
+    'name': 'comment.block.documentation.dogma'
+  }
+  {
+    'match': '^ *#.*#$'
     'name': 'comment.block.documentation.dogma'
   }
   {
