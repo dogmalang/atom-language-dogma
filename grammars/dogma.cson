@@ -75,7 +75,7 @@
     'name': 'keyword.dogma'
   }
   {
-    'match': '\\b(abstract|always|await|bind|coalesce|cwait|date|echo|echof|emit|expect|fmt|json|keys|len|pawait|pcwait|peval|print|printf|promisify|ps|pwait|remove|sleep|throw|todo|typename|values|year)\\b'
+    'match': '\\b(abstract|always|await|bind|coalesce|cwait|date|echo|echof|emit|expect|fmt|json|keys|len|new|pawait|pcwait|peval|print|printf|promisify|ps|pwait|remove|sleep|throw|todo|typename|values|year)\\b'
     'name': 'support.function.dogma'
   }
   {
