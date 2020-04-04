@@ -75,7 +75,7 @@
     'name': 'keyword.dogma'
   }
   {
-    'match': '\\b(abstract|await|bind|coalesce|cwait|date|echo|echof|emit|expect|fmt|json|keys|len|new|overload|pawait|pcwait|peval|print|printf|promisify|ps|pwait|remove|sleep|throw|todo|typename|values|year)\\b'
+    'match': '\\b(abstract|await|bind|coalesce|copy|cwait|date|echo|echof|emit|expect|fmt|json|keys|len|new|overload|pawait|pcwait|peval|print|printf|promisify|ps|pwait|remove|sleep|throw|todo|typename|values|year)\\b'
     'name': 'support.function.dogma'
   }
   {
@@ -83,7 +83,7 @@
     'name': 'variable.parameter.dogma'
   }
   {
-    'match': '(([:!](?!(any|bool|datetime|func|list|num|map|promise|proxy|re|set|text))[a-zA-Z0-9_]+)|([\\.\\?][a-zA-Z0-9_]+))'
+    'match': '(([:!](?!(any|bool|func|list|num|map|promise|proxy|re|set|text|timestamp))[a-zA-Z0-9_]+)|([\\.\\?][a-zA-Z0-9_]+))'
     'name': 'variable.language.dogma'
   }
   {
@@ -95,7 +95,7 @@
     'name': 'variable.language.env'
   }
   {
-    'match': '\\b(any|bool|datetime|func|list|num|map|promise|proxy|re|set|text)\\b'
+    'match': '\\b(any|bool|func|list|num|map|promise|proxy|re|set|text|timestamp)\\b'
     'name': 'support.type.dogma'
   }
   {
