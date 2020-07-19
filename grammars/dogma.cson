@@ -71,7 +71,7 @@
     'name': 'constant.language.dogma'
   }
   {
-    'match': '\\b(and|as|async|break|catch|const|do|dogma|each|else|end|enum|event|export|extern|finally|fn|for|from|if|impl|in|intf|intl|is|like|native|next|nop|not|op|or|pr|proc|pub|pvt|return|struct|then|type|until|use|var|while|with|yield)\\b'
+    'match': '\\b(and|as|async|await for each|break|catch|const|do|dogma|each|else|end|enum|event|export|extern|finally|fn|for|from|if|impl|in|intf|intl|is|like|native|next|nop|not|op|or|pr|proc|pub|pvt|return|struct|then|type|until|use|var|while|with|yield)\\b'
     'name': 'keyword.dogma'
   }
   {
